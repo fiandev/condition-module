@@ -1,10 +1,10 @@
 {
-  "name": "condition",
+  "name": "condition-module",
   "version": "1.0.0",
-  "description": "module that can be used to replace too many if, else if, and else statements",
+  "description": "module that can be used to replace too many if and else statements",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

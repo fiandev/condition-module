@@ -6,8 +6,9 @@
 - infinity will be return true
 
 > example
+
 ```javascript
-const { condition } = require("./condition")
+const { condition } = require("condition-module")
 
 const data = []
 condition(data, (data) => {
@@ -20,10 +21,16 @@ condition(data, (data) => {
 
 # how to use
 
+## installation
+
+```shell
+npm install condition-module --save
+```
+
 ## basic
 
 ```javascript
-const { condition } = require("./condition")
+const { condition } = require("condition-module")
 condition(true) // return true
 condition([]) // return false
 ```
@@ -31,7 +38,7 @@ condition([]) // return false
 ## using callback
 
 ```javascript
-const { condition } = require("./condition")
+const { condition } = require("condition-module")
 
 condition(true, (data) => {
   // this run if condition true
