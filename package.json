@@ -1,0 +1,24 @@
+{
+  "name": "condition",
+  "version": "1.0.0",
+  "description": "module that can be used to replace too many if, else if, and else statements",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiandev/condition-module.git"
+  },
+  "keywords": [
+    "module",
+    "nodejs",
+    "npm"
+  ],
+  "author": "fian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiandev/condition-module/issues"
+  },
+  "homepage": "https://github.com/fiandev/condition-module#readme"
+}
