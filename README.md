@@ -1,11 +1,11 @@
 # feature
 
-* check array is null or not
-* check object is null or not
-* undefined, NaN, null will be retrun false
-* infinity will be return true
+> check array is null or not
+> check object is null or not
+> undefined, NaN, null will be retrun false
+> infinity will be return true
 
-- example
+example
 ```javascript
 const { condition } = require("./condition")
 
